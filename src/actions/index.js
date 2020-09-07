@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_KEY = 'ed0838fc29cbd2889dc67f88cc6c313f';
-const BASE_URL = `http://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
+const BASE_URL = `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
 
 export const FETCH_WEATHER = 'FETCH_WEATHER';
 
