@@ -12,7 +12,6 @@ const Chart = ({ data, color, units }) => (
     </Sparklines>
     <div>
       {average(data)}
-
       {units}
     </div>
   </div>

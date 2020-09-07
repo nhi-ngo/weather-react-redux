@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 
 class GoogleMap extends Component {
+  constructor(props) {
+    super(props);
+    this.mapRef = React.createRef();
+  }
+
   componentDidMount() {
     const { google } = window;
-    new google.maps.Map(this.refs.map, {
+    this.map = new google.maps.Map(this.mapRef.current, {
       zoom: 12,
       center: {
         lat: this.props.lat,
@@ -13,7 +18,7 @@ class GoogleMap extends Component {
   }
 
   render() {
-    return <div ref="map">Loading map...</div>;
+    return <div ref={this.mapRef}>Loading map...</div>;
   }
 }
 
