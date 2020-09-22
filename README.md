@@ -1,5 +1,6 @@
-<h1 align="center">5 days Weather Forecast</h1>
+<h1 align="center">5-day Weather Forecast Average</h1>
 
-Get current weather and 3-hourly forecast 5 days for your city with its google map embedded. Built with React.
+Get current weather and 5-day forecast average for your city with its google map embedded.
 
-### Live site: https://5daysweather.netlify.app/
+
+Live site: https://5daysweather.netlify.app/
